@@ -1,4 +1,4 @@
 #!/bin/bash
 
 rm ./WEB-INF/classes/$1.class
-/usr/lib/jvm/java-17-amazon-corretto/bin/javac -cp ./WEB-INF/lib/jakarta.servlet-api-6.0.0.jar:./WEB-INF/classes/models/*.class:./WEB-INF/classes/*.class ./WEB-INF/classes/$1."java"
+/usr/lib/jvm/java-17-amazon-corretto/bin/javac -cp ./WEB-INF/lib/jakarta.servlet-api-6.0.0.jar:./WEB-INF/classes/models/*.class:./WEB-INF/classes ./WEB-INF/classes/$1."java"
