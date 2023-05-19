@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  servlet-demo:
+    container_name: tut
+    build:
+      context: .
+    ports:
+      - 9999:8080
+    volumes:
+      - /home/sudonick/personal/servlets/servlet-demo/:/usr/local/tomcat/webapps/demo:rw
